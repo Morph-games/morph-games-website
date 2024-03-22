@@ -4,11 +4,15 @@
   "description": "* Main branch: https://morph-games.github.io/morph-games-website/\r * Site: https://morph.games",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vite dev"
   },
   "keywords": [
     "games"
   ],
   "author": "Luke Nickerson",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "vite": "^5.2.2"
+  }
 }
